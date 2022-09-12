@@ -14,5 +14,3 @@ Kickstarter.com
 Metrics:
 Backers
 Price
-
-Data in 
