@@ -24,7 +24,7 @@ Step 2: Collect data
 
 In the linked document called "Mythral Artificer Table Price Data", I gethered the pricing data on the successful Kickstarters to be able to analyse them. I pulled the Kickstarter link from the address bar, the Total Backers and Total Pledged from the top of the page, the Cost for most popular Pledge adn Backers for most popular Pledge from the Support side bar. 
 
-As I am looking to calculate basedin profit, I also was given the cost of materials and Labor for the table which was $2,557.00
+As I am looking to calculate based on profit, I also was given the cost of materials and Labor for the table which was $2,557.00
 
 Step 3:Clean Data
 
