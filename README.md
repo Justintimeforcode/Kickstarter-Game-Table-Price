@@ -33,6 +33,7 @@ Problem 3:  Data outlier
 Data point 1, "The Duchess", is very close to an outlier in the data, with a calculated z score of 2.75 in number of backers. Looking further into the datapoint, this was the first kickstarter of its kind, creating an abnormal situation in comparison to the rest of the kickstarters. Due to the near outlier data and unique situation, "the Duchess" will not be included in future calculations.
 
 Step 4: Analyze the Data
+
 A. Create Calculation for Profit per table: as Profit = Price - Cost, and we are willing to change price to increase profit, the profit equation goes like this: y = x - 1,757.00
 
 B. Create total profit calculation: as total profit = profit per table * number of tables sold and profit per table = x - 1757.00, Total Profit = (x - 2557) * z where x is table cost and z is number of tables sold.
