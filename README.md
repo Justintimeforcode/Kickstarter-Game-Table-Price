@@ -16,7 +16,7 @@ Step 2: Collect data
 
 In the linked document called "Mythral Artificer Table Price Data", I gathered the pricing data on the successful Kickstarters to be able to analyze them. I pulled the Kickstarter link from the address bar, the Total Backers and Total Pledged from the top of the page, the Cost for most popular Pledge and Backers for most popular Pledge from the Support side bar.
 
-As I am looking to calculate based on profit, I also was given the cost of materials and Labor for the table which was $2,557.00
+As I am looking to calculate based on profit, I also was given the cost of materials and Labor for the table which was $3,800.00
 
 Step 3: Clean Data
 
@@ -34,17 +34,17 @@ Data point 1, "The Duchess", is very close to an outlier in the data, with a cal
 
 Step 4: Analyze the Data
 
-A. Create Calculation for Profit per table: as Profit = Price - Cost, and we are willing to change price to increase profit, the profit equation goes like this: y = x - 2557
+A. Create Calculation for Profit per table: as Profit = Price - Cost, and we are willing to change price to increase profit, the profit equation goes like this: y = x - 3800
 
-B. Create total profit calculation: as total profit = profit per table * number of tables sold and profit per table = x - 2557, Total Profit = (x - 2557) * z where x is table cost and z is number of tables sold.
+B. Create total profit calculation: as total profit = profit per table * number of tables sold and profit per table = x - 3800, Total Profit = (x - 3800) * z where x is table cost and z is number of tables sold.
 
 C. Create an equation that finds z using x: because we cannot easily solve an equation with two independent variables, we need to find the relationship between z and x to replace z in the total profit calculation. 
 
 In our data, we have both the "Cost for most popular Pledge (ADJ 2022)" and "Backers for most popular Pledge". Using this data, we will create a scatterplot graph to find the trendline defining the relationship between these two values. As we cannot sell less than 0 tables, the trendline for this data will be exponential instead of linear. 
 
-As shown in the Table Price Vs. Number of Backers, the exponential trendline is y = 2130e^-0.001x where y is number of backers and x is price of table. Compiling the Total Profit and quantity of backers per table price gives us Total Profit = (x - 2557) * 2130e^-0.001x.
+As shown in the Table Price Vs. Number of Backers, the exponential trendline is y = 2130e^-0.001x where y is number of backers and x is price of table. Compiling the Total Profit and quantity of backers per table price gives us Total Profit = (x - 3800) * 2130e^-0.001x.
 
-D. Find the Maximum of the final Total Profit Equation: Using Wolfram alpha, we paste in the equation and ask for the maximum and it returns to us that the Total Profit is largest at the table price $3,575 with a calculated number of tables sold at 59.67 tables, rounded up to 60 tables, with a total calculated profit of $59,672
+D. Find the Maximum of the final Total Profit Equation: Using Wolfram alpha, we paste in the equation and ask for the maximum and it returns to us that the Total Profit is largest at the table price $4,800 with a calculated number of tables sold at 17.5 tables, with a total calculated profit of $17,500
 
 Step 5: Present the Data
 
