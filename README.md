@@ -34,9 +34,9 @@ Data point 1, "The Duchess", is very close to an outlier in the data, with a cal
 
 Step 4: Analyze the Data
 
-A. Create Calculation for Profit per table: as Profit = Price - Cost, and we are willing to change price to increase profit, the profit equation goes like this: y = x - 1,757.00
+A. Create Calculation for Profit per table: as Profit = Price - Cost, and we are willing to change price to increase profit, the profit equation goes like this: y = x - 2557
 
-B. Create total profit calculation: as total profit = profit per table * number of tables sold and profit per table = x - 1757.00, Total Profit = (x - 2557) * z where x is table cost and z is number of tables sold.
+B. Create total profit calculation: as total profit = profit per table * number of tables sold and profit per table = x - 2557, Total Profit = (x - 2557) * z where x is table cost and z is number of tables sold.
 
 C. Create an equation that finds z using x: because we cannot easily solve an equation with two independent variables, we need to find the relationship between z and x to replace z in the total profit calculation. 
 
